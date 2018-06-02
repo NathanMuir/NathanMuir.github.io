@@ -1,0 +1,633 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Вебсайт Васюры Сергея </title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+		<script src="js/jquery.min.js"></script>
+	
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="ttt.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+    <script type="text/javascript">
+
+					//Функция показа
+			function show(state){
+
+					document.getElementById('window').style.display = state;			
+					document.getElementById('wrap').style.display = state; 			
+			}
+			
+		</script>
+        <script type="text/javascript">
+
+					//Функция показа
+			function show1(state){
+
+					document.getElementById('window1').style.display = state;			
+					document.getElementById('wrap1').style.display = state; 			
+			}
+			
+		</script>
+        <script type="text/javascript">
+
+					//Функция показа
+			function show2(state){
+
+					document.getElementById('window2').style.display = state;			
+					document.getElementById('wrap2').style.display = state; 			
+			}
+			
+		</script>
+        <script type="text/javascript">
+
+					//Функция показа
+			function show3(state){
+
+					document.getElementById('window3').style.display = state;			
+					document.getElementById('wrap3').style.display = state; 			
+			}
+			
+		</script>
+        <script type="text/javascript">
+
+					//Функция показа
+			function show4(state){
+
+					document.getElementById('window4').style.display = state;			
+					document.getElementById('wrap4').style.display = state; 			
+			}
+			
+		</script>
+         <script type="text/javascript">
+
+					//Функция показа
+			function show5(state){
+
+					document.getElementById('window5').style.display = state;			
+					document.getElementById('wrap5').style.display = state; 			
+			}
+			
+		</script>
+        <div onclick="show5('none')" id="wrap5"></div>
+					<!-- Само окно-->
+			<div id="window5">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show5('none')" src="images/close.png"> 
+                <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Индекс</td>
+                    <td>Наименование</td>
+                    <td>Учебная нагрузка</td>
+                    <td>Курс</td>
+                    <td>Семестр</td>
+                    <td>Оценка</td>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ЕН.01</td><td>Элементы высшей математики</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ЕН.02</td><td>Элементы математической логики</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ЕН.03</td><td>Теория вероятностей и математическая статистика</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.01.01</td><td>Системное программирование</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.01.02</td><td>Прикладное программирование</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.02.01</td><td>Инфокоммуникационные системы и сети</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.02.02</td><td>Технология разработки и защиты баз данных</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.03.01</td><td>Технология разработки программного обеспечения</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.03.02</td><td>Инструментальные средства разработки программного обеспечения</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.03.03</td><td>Документирование и сертификация</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.04.01</td><td>Эксплуатация аппаратного обеспечения, операционной системы и периферийных устройств ПК</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.04.02</td><td>Офисное программирование и язык VBA</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.04.03</td><td>Обработка информации с помощью прикладного программного обеспечения для персонального компьютера</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>МДК.05.01</td><td>Разработка графических и пользовательских интерфейсов</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОГСЭ.01</td><td>Основы философии</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОГСЭ.02</td><td>История</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОГСЭ.03</td><td>Иностранный язык</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.01</td><td>Операционные системы</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.02</td><td>Архитектура компьютерных систем</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.03</td><td>Технические средства информатизации</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.04</td><td>Информационные технологии</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.05</td><td>Основы программирования</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.06</td><td>Основы экономики</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.07</td><td>Правовое обеспечение профессиональной деятельности</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.08</td><td>Теория алгоритмов</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.09</td><td>Открытое программное обеспечение</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.10</td><td>Основы научно-исследовательской работы</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.11</td><td>Компьютерная графика и дизайн</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.12</td><td>Мультимедийные технологии</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.13</td><td>Internet-технологии</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.14</td><td>Web-программирование</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ОП.15</td><td>Безопасность жизнедеятельности</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПМ.01</td><td>Разработка программных модулей программного обеспечения для компьютерных систем</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПМ.02</td><td>Разработка и администрирование баз данных</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПМ.03</td><td>Участие в интеграции программных модулей</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПМ.04</td><td>Выполнение работ по одной или нескольким профессиям рабочих, должностям служащих</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПМ.05</td><td>Разработка графических и пользовательских интерфейсов</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПП.01.01</td><td>Разработка программных модулей программного обеспечения для компьютерных систем</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПП.02.01</td><td>Разработка и администрирование баз данных</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПП.03.01</td><td>Участие в интеграции программных модулей</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПП.04.01</td><td>Оператор ЭВМ</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>ПП.05.01</td><td>Разработка графических и пользовательских интерфейсов</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>УП.01.01</td><td>Разработка программных модулей программного обеспечения для компьютерных систем</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>УП.02.01</td><td>Разработка и администрирование баз данных</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>УП.03.01</td><td>Участие в интеграции программных модулей</td><td>100</td><td>2</td><td>3</td><td>5</td></tr><tr><td>УП.04.01</td><td>Оператор ЭВМ</td><td>100</td><td>2</td><td>3</td><td>5</td></tr>                </tbody>
+              </table>
+            </div>
+            <h1>Практики</h1>
+            <div class="table-responsive">
+              <table style="margin: auto;">
+                <thead>
+                  <tr>
+                    <td>Место прохождения</td>
+                    <td>Вид практики</td>
+                    <td>Сроки прохождения</td>
+                    <td>Оценка</td>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Учебная</td><td>с 10.05.2015 по 24.05.2015</td><td>Отлично</td></tr><tr><td>ИФНС России по Центральному району города Волгограда</td><td>Производственная</td><td>с 25.05.2015 по 17.06.2015</td><td>Отлично</td></tr><tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Учебная</td><td>с 10.12.2015 по 24.12.2015</td><td>Отлично</td></tr><tr><td>ИФНС России по Центральному району города Волгограда</td><td>Производственная</td><td>с 25.12.2015 по 27.01.2016</td><td>Отлично</td></tr><tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Учебная</td><td>с 08.05.2016 по 18.05.2016</td><td>Отлично</td></tr><tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Производственная</td><td>с 19.05.2016 по 19.06.2016</td><td>Отлично</td></tr><tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Учебная</td><td>с 10.12.2016 по 24.12.2016</td><td>Отлично</td></tr><tr><td>ГБПОУ "Волгоградский технологический колледж"</td><td>Производственная</td><td>с 25.12.2016 по 27.01.2017</td><td>Отлично</td></tr>                </tbody>
+              </table>
+            </div>
+                </div>
+        <div onclick="show2('none')" id="wrap2"></div>
+					<!-- Само окно-->
+			<div id="window2">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show2('none')" src="images/close.png"> 
+                   <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Название профессионального модуля (ПМ)</th>
+                    <th>Междисциплинарные комплексы (МДК)и практики</th>
+                    <th>Компетенции</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">03. Участие в интеграции программных модулей</td>
+                    <td rowspan="2">МДК.03.01 Технология разработки программного обеспечения</td>
+                    <td>ПК 3.1. Анализировать проектную и техническую документацию на уровне взаимодействия компонент программного обеспечения.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 3.2. Выполнять интеграцию модулей в программную систему.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.03.02 Инструментальные средства разработки программного обеспечения</td>
+                    <td>ПК 3.3. Выполнять отладку программного продукта с использованием специализированных программных средств.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 3.4. Осуществлять разработку тестовых наборов и тестовых сценариев.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.03.03 Документирование и сертификация</td>
+                    <td>ПК 3.5. Производить инспектирование компонент программного продукта на предмет соответствия стандартам кодирования.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 3.6. Разрабатывать технологическую документацию.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+                </div>
+                 <div onclick="show3('none')" id="wrap3"></div>
+					<!-- Само окно-->
+			<div id="window3">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show3('none')" src="images/close.png"> 
+                    <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Название профессионального модуля (ПМ)</th>
+                    <th>Междисциплинарные комплексы (МДК)и практики</th>
+                    <th>Компетенции</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="7">04. Выполнение работ по одной или нескольким профессиям рабочих, должностям служащих</td>
+                    <td rowspan="2">МДК.04.01 Эксплуатация аппаратного обеспечения, операционной системы и периферийных устройств персонального компьютера и компьютерной оргтехники</td>
+                    <td>ПК 4.1. Создавать и управлять на персонольном компьютере текстовыми документами таблицами презентациями и публикациями.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 4.2. Осуществлять навигацию по ресурсам ,поиск,ввод и передачу данных спомощью технологии и сервисов интернет.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.04.02 Офисное программирование и язык VBA</td>
+                    <td>ПК 4.3. Обсуживание аппаратного обеспечения персонального компьютера.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 4.4. Установка и обслуживание программного обеспечения.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">МДК.04.03 Обработка информации с помощью прикладного программного обеспечения для персонального компьютера</td>
+                    <td>ПК 4.5. Выполнять разработку спецификаций отдельных компонент.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 4.6. Осуществлять разработку кода программного продукта на основе готовых спецификаций.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 4.7. Выполнять отладку программного продукта с использованием специализированных программных средств.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+                </div>
+                 <div onclick="show4('none')" id="wrap4"></div>
+					<!-- Само окно-->
+			<div id="window4">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show4('none')" src="images/close.png"> 
+                   <div class="table-responsive">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Название профессионального модуля (ПМ)</th>
+                    <th>Междисциплинарные комплексы (МДК)и практики</th>
+                    <th>Компетенции</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">05. Разработка графических и пользовательских интерфейсов</td>
+                    <td rowspan="6">МДК 05.01 Разработка графических и пользовательских интерфейсов</td>
+                    <td>ПК 5.1. Формировать требования к дизайну беб-приложений на основе анализа предметной области и целевой аудитории</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 5.2. Осуществлять разработку дизайна веб-приложения с учетом современных тенденций в области веб-разработки.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 5.3. Разрабатывать техническое задание на веб-приложение в соответствии с требованиями заказчика.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 5.4. Разрабатывать интерфейс пользователя веб-приложений и веб-приложения в соответствии с техническим заданием.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 5.5. Производить тестирование и оптимизацию разработанного веб приложения.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 5.6. Размещать веб приложения в сети в соответствии с техническим заданием.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+                </div>
+        <div onclick="show('none')" id="wrap"></div>
+					<!-- Само окно-->
+			<div id="window">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="images/close.png">    
+            <div class="table-responsive">	
+                <table>
+                <thead>
+                  <tr>
+                    <th>Название профессионального модуля (ПМ)</th>
+                    <th>Междисциплинарные комплексы (МДК)и практики</th>
+                    <th>Компетенции</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">01. Разработка программных модулей программного обеспечения для компьютерных систем</td>
+                    <td rowspan="2">МДК.01.01 Системное программирование</td>
+                    <td>ПК 1.1. Выполнять разработку спецификаций отдельных компонентов баз данных.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 1.2. Осуществлять разработку кода программного обеспечения.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.01.02 Прикладное программирование</td>
+                    <td>ПК 1.3. Выполнять отладку программных модулей с использование программных средств.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 1.4. Выполнять тестирование программных модулей.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.01.03 Прикладное программирование (курсовой проект)</td>
+                    <td>ПК 1.5. Осуществлять оптимизацию программного кода модуля.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 1.6. Разрабатывать компоненты проектной и технической документации с использованием графических языков спецификаций.</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              </div>			
+			</div>
+            <div onclick="show1('none')" id="wrap1"></div>
+					<!-- Само окно-->
+			<div id="window1">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show1('none')" src="images/close.png">    
+            <div class="table-responsive">	
+                <table>
+                <thead>
+                  <tr>
+                    <th>Название профессионального модуля (ПМ)</th>
+                    <th>Междисциплинарные комплексы (МДК)и практики</th>
+                    <th>Компетенции</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="4">02. Разработка баз данных и их администрирование</td>
+                    <td rowspan="2">МДК.02.01 Инфокоммуникационные системы и сети</td>
+                    <td>ПК 2.1. Разрабатывать объекты базы данных.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 2.2. Реализовывать базу данных в конкретной системе управления базами данных.</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">МДК.02.02 Технология разработки и защиты баз данны</td>
+                    <td>ПК 2.3. Решать вопросы администрирования базы данных.</td>
+                  </tr>
+                  <tr>
+                    <td>ПК 2.4. Реализовывать методы и технологии защиты информации.</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              </div>			
+     <script type="text/javascript">
+
+					//Функция показа
+			function show(state){
+
+					document.getElementById('window').style.display = state;			
+					document.getElementById('wrap').style.display = state; 			
+			}
+			
+		</script>
+        <div onclick="show('none')" id="wrap"></div>
+					<!-- Само окно-->
+			<div id="window">			
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="images/close.png">	
+                <p>база</p>			
+			</div>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+						
+						</div>
+						<!----start-top-nav---->
+						<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home" class="scroll">О себе</a><span> </span></li>
+					<li><a href="#work" class="scroll">Портфолио</a></li>
+					<li><a href="#resume" class="scroll">Образование</a></li>
+					<li><a href="#contact" class="scroll">Связь</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+						 
+						<div class="clearfix"> </div>
+						<!----top-header-info--->
+						<div class="top-header-info">
+							<p>
+								Привет,<br/>
+								Меня Зовут Сергей Васюра. <br/>
+								Фрилансер UI / UX / Дизайнер.<br/>
+								
+							</p>
+							<a class="contactme" href="#contact">Связаться со мной</a>
+						</div>
+						<!----//End-header-info--->
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- about us ---->
+			<div class="aboutus">
+				<div class="container">
+					<h2>Обо мне<br/>Сергей Васюра</h2>
+					<span> </span>
+					<div class="col-md-6 aboutus-left">
+						<p>Моя специальность - Веб-разработчик. Мне 23 года.Я работаю в области информационных технологий - 3 года. Имею определенный опыт программирования и администрирования. </p>
+						<p>Владею PHP + MySQL/JS (JQuery),HTML/CSS + CSM Joomla и написание компонентов. Имею опыт работы на позиции системного администратора. Знаю принципы работы домена на базе Microsoft Windows  </p>
+						<p>За время работы накоплен практический опыт, изучено множество особенностей языка.</p>
+					</div>
+					<div class="col-md-6 aboutus-right">
+						<p>Многократно приходилось выполнять работы по HTML-верстке. В процессе работы были досконально изучены спецификации HTML, XHTML, CSS и т.п. Это позволило в дальнейшем избегать ошибок и создавать корректный HTML-код, строго соответствующий действующим стандартам. </p>
+				
+						<a class="aboutus-right-btn" href="#resume">Образование</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---- about us ---->
+			<!---- QUOTE ---->
+			<div class="quote text-center">
+				<div class="container">
+					<p></p>
+				</div>
+			</div>
+			<!---- //QUOTE ---->
+			<!---- WORKS ---->
+            	<div class="resume" id="resume" style="text-align: left;">
+		<div class="container">
+			<div class="resume-top">
+				
+                <div>
+                <br />
+                	<div class="aboutus" style="text-align: left;">
+				<div class="container">
+					<h2>Образование</h2>
+					<span> </span>
+                    </div>
+                    </div>
+                
+            <a onclick="show5('block')">Учебный план</a>
+			</div>
+            
+			<div class="scrollbar" id="ex3">
+			<div class="content">
+				<div class="resume-bot">
+					<h4>ПМ.01</h4>
+					<span> </span>
+					<br />
+				
+					<p>Разработка программных модулей программного обеспечения для компьютерных систем</p>
+                     <br/>
+                    	<a onclick="show('block')">Подробнее</a>
+				</div>
+				<div class="resume-bot">
+					<h4>ПМ.02</h4>
+					<span> </span>
+					<br />
+				
+					<p> Разработка баз данных и их администрирование.</p>
+                     <br/>
+                     	<a onclick="show1('block')">Подробнее</a>
+						</div>
+				<div class="resume-bot">
+					<h4>ПМ.03</h4>
+					<span> </span>
+						<br />
+				
+					<p>Участие в интеграции программных модулей.</p>
+                     <br/>
+                     	<a onclick="show2('block')">Подробнее</a>
+							</div>
+				<div class="resume-bot">
+					<h4>ПМ.04</h4>
+					<span> </span>
+					<br />
+				
+					<p>Выполнение работ по одной или нескольким профессиям рабочих, должностям служащих.</p>
+                    <br/>
+                    	<a onclick="show3('block')">Подробнее</a>
+					</div>
+                <div class="resume-bot">
+					<h4>ПМ.05</h4>
+					<span> </span>
+						<br />
+					
+					<p>Разработка графических и пользовательских интерфейсов.</p>
+                     <br/>
+                     	<a onclick="show4('block')">Подробнее</a>
+						</div>
+                
+			</div>
+		    </div>
+		    <div class="clearfix"></div>
+		   
+		</div>
+	</div>
+			<div id="work" class="works">
+				<div class="container">
+					<h2>Мои<br/>Работы</h2>
+					<span> </span>
+				</div>
+				<!---- partners ---->
+				<div class="partners">
+					<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 5,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : true,
+							        navigationText :  false,
+							        pagination : false,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+							 <div class="container">
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen4.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen5.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
+					                	<label>Перейти на сайт</label>
+					                </div>
+				              </div>
+							</div>
+						<!--//sreen-gallery-cursual---->
+				</div>
+				<!---- //partners ---->
+				
+			</div>
+			</div>
+			<!---- //WORKS ---->
+		
+			<!---- CONTACT ----->
+			<div id="contact" class="contact"> 
+				<div class="container">
+					<h2><br/>Связаться со мной</h2>
+					<span> </span>
+				<!----contact-grids---->
+				
+				<div class="contact-grids">
+					<div class="col-md-6 contact-left">
+					
+						<p>Оставте ваше сообщение и я свяжусь с вами</p>
+						<form class="feedback">
+							<input id="user_name" type="text" placeholder="Ваше имя">
+							<input id="user_mail" type="text" placeholder="Ваша почта">
+							<textarea id="user_text" rows="2" cols="70" placeholder="Ваше сообщение"></textarea>
+							<input type="submit" value="Отправить"/>
+							<div class="clearfix"> </div>
+						</form>
+						
+					</div>
+					<div class="col-md-6 contact-right">
+						<p> Мои контакты. </p>
+						<div class="address">
+							<label>yasnyy1994@mail.ru</label>
+							<label>89275006414</label>
+					
+						</div>
+						<div class="clearfix"> </div>
+					
+						<div class="clearfix"> </div>
+						<div class="social-share">
+							<h4>Я в соц сетях</h4>
+							<ul class="unstyled-list list-inline">
+                                <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100022001115777"><span></span></a></li>
+							
+								<li><a class="googlepluse" href="https://my.mail.ru/mail/yasnyy1994/"><span> </span></a></li>
+							
+								<div class="clearfix"> </div>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			</div>
+			<!---- CONTACT ----->
+		
+			<div class="copy-right text-center">
+				<div class="container">
+					
+					<label>Copyright 2018. All rights reserved.</label>
+								
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+	</body>
+</html>
+
